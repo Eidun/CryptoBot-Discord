@@ -1,14 +1,12 @@
-import asyncio
 import sys
 import traceback
-import datetime
 import discord
 from discord.ext import commands
 
 
 description = '''ApolloBot'''
 
-modules = {'cogs.roles_management', 'cogs.crytopto', }
+modules = {'cogs.roles_management', 'cogs.secret_channel'}
 
 bot = commands.Bot(command_prefix='!', description=description)
 
@@ -37,4 +35,4 @@ async def on_ready():
 
 
 # Test bot
-bot.run('Mzc3MzcxODU0MTMxOTUzNjY0.DOL-cA.IcsLMuSJt99Rz8j_EZAIWvF4RZk')
+bot.run('')
